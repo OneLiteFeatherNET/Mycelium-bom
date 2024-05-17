@@ -1,4 +1,3 @@
 rootProject.name = "dungeon-bom"
 
-
-include("dungeon")
+include("base")
