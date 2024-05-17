@@ -1,2 +1,5 @@
 include:
   - component: gitlab.themeinerlp.dev/dungeon/ci-components/gradle-publish@0.0.3
+
+stages:
+  - deploy
