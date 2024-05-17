@@ -8,6 +8,12 @@ repositories {
     mavenCentral()
 }
 
+subprojects {
+    apply {
+        plugin<MavenPublishPlugin>()
+    }
+}
+
 allprojects {
     group = "net.theevilreaper.dungeon"
     version = rootProject.version
@@ -29,7 +35,6 @@ allprojects {
                         }
                     }
                 }
-                from(components["java"])
             }
         }
     }
