@@ -2,7 +2,7 @@ plugins {
     `maven-publish`
 }
 
-version = "1.0.0"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ subprojects {
     }
 }
 
-allprojects {
+subprojects {
     group = "net.theevilreaper.dungeon.bom"
     version = rootProject.version
 
