@@ -15,7 +15,7 @@ subprojects {
 }
 
 allprojects {
-    group = "net.theevilreaper.dungeon.bpm"
+    group = "net.theevilreaper.dungeon.bom"
     version = rootProject.version
 
     repositories {
