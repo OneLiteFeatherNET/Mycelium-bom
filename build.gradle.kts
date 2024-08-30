@@ -45,7 +45,7 @@ subprojects {
 
                     issueManagement {
                         system.set("GitLab")
-                        url.set("https://gitlab.com/OneliteFeather/dungeon-bom/-/issues")
+                        url.set("https://gitlab.onelitefeather.dev/dungeon/bom/-/issues")
                     }
                 }
             }
