@@ -9,8 +9,8 @@ bomGenerator {
     includeDependency("net.kyori", "adventure-text-minimessage", "4.17.0")
     includeDependency("org.junit.jupiter", "junit-jupiter-api", "5.11.2")
     includeDependency("org.junit.jupiter", "junit-jupiter-engine", "5.11.2")
-    includeDependency("org.mockito", "mockito-core", "5.14.1")
-    includeDependency("org.mockito", "mockito-junit-jupiter", "5.14.1")
+    includeDependency("org.mockito", "mockito-core", "5.14.2")
+    includeDependency("org.mockito", "mockito-junit-jupiter", "5.14.2")
 
     // Plugin dependencies
     includeDependency("com.github.johnrengelman.shadow", "shadow", "8.1.1")
