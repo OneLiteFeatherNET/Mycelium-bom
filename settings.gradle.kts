@@ -1,3 +1,3 @@
-rootProject.name = "dungeon-bom"
+rootProject.name = "mycelium-bom"
 
 include("base")
