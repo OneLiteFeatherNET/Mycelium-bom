@@ -11,9 +11,6 @@
       "automerge": true,
       "automergeType": "branch",
       "groupName": "patch",
-      "schedule": [
-        "after 10pm and before 6:00am every day"
-      ],
       "commitMessage": "Update {{depName}} from {{currentVersion}} to {{newVersion}}"
     },
     {
@@ -21,9 +18,6 @@
         "minor"
       ],
       "automerge": false,
-      "schedule": [
-        "before 6:00am every friday"
-      ],
       "commitMessage": "Update {{depName}} from {{currentVersion}} to {{newVersion}}"
     }
   ]
