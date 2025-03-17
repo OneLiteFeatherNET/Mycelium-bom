@@ -1,68 +1,68 @@
 plugins {
     `maven-publish`
+    `java-platform`
 }
 
-version = "1.0.6"
+group = "net.theevilreaper.mycelium.bom"
+version = "1.1.0"
 
-repositories {
-    mavenCentral()
+javaPlatform {
+    allowDependencies()
 }
 
-subprojects {
-    apply {
-        plugin<MavenPublishPlugin>()
+dependencies {
+    constraints {
+        api(libs.microtus)
+        api(libs.microtus.testing)
+        api(libs.adventure.text.minimessage)
+        api(libs.junit.jupiter.api)
+        api(libs.junit.jupiter.engine)
+        api(libs.mockito.core)
+        api(libs.mockito.junit.jupiter)
     }
 }
 
-subprojects {
-    group = "net.theevilreaper.mycelium.bom"
-    version = rootProject.version
 
-    repositories {
-        mavenCentral()
-    }
-
-    publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                pom {
-                    name.set("${project.name} ${project.version}")
-                    description.set("Bill of materials for the Dungeon project")
-                    developers {
-                        developer {
-                            name.set("OneliteFeather")
-                            contributors {
-                                contributor {
-                                    name.set("theEvilReaper")
-                                }
-                                contributor {
-                                    name.set("TheMeinerLP")
-                                }
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            pom {
+                name.set("${project.name} ${project.version}")
+                description.set("Bill of materials for the Mycelium project")
+                developers {
+                    developer {
+                        name.set("OneliteFeather")
+                        contributors {
+                            contributor {
+                                name.set("theEvilReaper")
+                            }
+                            contributor {
+                                name.set("TheMeinerLP")
                             }
                         }
                     }
+                }
 
-                    issueManagement {
-                        system.set("GitLab")
-                        url.set("https://gitlab.onelitefeather.dev/dungeon/bom/-/issues")
-                    }
+                issueManagement {
+                    system.set("Github")
+                    url.set("https://github.com/OneLiteFeatherNET/Mycelium-bom/issues")
                 }
             }
+        }
 
-            if (System.getenv().containsKey("CI")) {
-                repositories {
-                    maven {
-                        name = "GitLab"
-                        val ciApiv4Url = System.getenv("CI_API_V4_URL")
-                        val projectId = System.getenv("CI_PROJECT_ID")
-                        url = uri("$ciApiv4Url/projects/$projectId/packages/maven")
-                        credentials(HttpHeaderCredentials::class.java) {
-                            name = "Job-Token"
-                            value = System.getenv("CI_JOB_TOKEN")
-                        }
-                        authentication {
-                            create<HttpHeaderAuthentication>("header")
-                        }
+        if (System.getenv().containsKey("CI")) {
+            repositories {
+                maven {
+                    name = "GitLab"
+                    val ciApiv4Url = System.getenv("CI_API_V4_URL")
+                    val projectId = System.getenv("CI_PROJECT_ID")
+                    url = uri("$ciApiv4Url/projects/$projectId/packages/maven")
+                    credentials(HttpHeaderCredentials::class.java) {
+                        name = "Job-Token"
+                        value = System.getenv("CI_JOB_TOKEN")
+                    }
+                    authentication {
+                        create<HttpHeaderAuthentication>("header")
                     }
                 }
             }
