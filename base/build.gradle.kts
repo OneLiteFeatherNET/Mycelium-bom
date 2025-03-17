@@ -13,6 +13,6 @@ bomGenerator {
     includeDependency("org.mockito", "mockito-junit-jupiter", "5.14.2")
 
     // Plugin dependencies
-    includeDependency("com.github.johnrengelman.shadow", "shadow", "8.1.1")
+    includeDependency("com.gradleup.shadow", "shadow", "8.3.6")
 }
 
