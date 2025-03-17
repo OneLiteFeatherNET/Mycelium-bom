@@ -15,12 +15,11 @@ subprojects {
 }
 
 subprojects {
-    group = "net.theevilreaper.dungeon.bom"
+    group = "net.theevilreaper.mycelium.bom"
     version = rootProject.version
 
     repositories {
         mavenCentral()
-        maven("https://jitpack.io")
     }
 
     publishing {
