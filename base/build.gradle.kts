@@ -7,8 +7,8 @@ bomGenerator {
     includeDependency("net.onelitefeather.microtus", "Microtus", "1.5.1")
     includeDependency("net.onelitefeather.microtus.testing", "testing", "1.5.1")
     includeDependency("net.kyori", "adventure-text-minimessage", "4.19.0")
-    includeDependency("org.junit.jupiter", "junit-jupiter-api", "5.11.3")
-    includeDependency("org.junit.jupiter", "junit-jupiter-engine", "5.11.3")
+    includeDependency("org.junit.jupiter", "junit-jupiter-api", "5.12.1")
+    includeDependency("org.junit.jupiter", "junit-jupiter-engine", "5.12.1")
     includeDependency("org.mockito", "mockito-core", "5.14.2")
     includeDependency("org.mockito", "mockito-junit-jupiter", "5.14.2")
 
