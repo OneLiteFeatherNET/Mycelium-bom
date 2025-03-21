@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.theevilreaper.mycelium.bom"
-version = "1.1.0"
+version = "1.1.1"
 
 javaPlatform {
     allowDependencies()
