@@ -26,19 +26,18 @@ dependencies {
 publishing {
     repositories {
         maven {
+            authentication {
+                credentials(PasswordCredentials::class) {
+                    // Those credentials need to be set under "Settings -> Secrets -> Actions" in your repository
+                    username = System.getenv("ONELITEFEATHER_MAVEN_USERNAME")
+                    password = System.getenv("ONELITEFEATHER_MAVEN_PASSWORD")
+                }
+            }
             name = "OneLiteFeatherRepository"
             url = if (project.version.toString().contains("SNAPSHOT")) {
                 uri("https://repo.onelitefeather.dev/onelitefeather-snapshots")
             } else {
                 uri("https://repo.onelitefeather.dev/onelitefeather-releases")
-            }
-            credentials {
-                username = System.getenv("ONELITEFEATHER_MAVEN_USERNAME")
-                password = System.getenv("ONELITEFEATHER_MAVEN_PASSWORD")
-            }
-            credentials(PasswordCredentials::class)
-            authentication {
-                create<BasicAuthentication>("basic")
             }
         }
     }
