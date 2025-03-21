@@ -32,6 +32,10 @@ publishing {
             } else {
                 uri("https://repo.onelitefeather.dev/onelitefeather-releases")
             }
+            credentials {
+                username = System.getenv("ONELITEFEATHER_MAVEN_USERNAME")
+                password = System.getenv("ONELITEFEATHER_MAVEN_PASSWORD")
+            }
             credentials(PasswordCredentials::class)
             authentication {
                 create<BasicAuthentication>("basic")
