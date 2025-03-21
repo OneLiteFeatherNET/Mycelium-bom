@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.theevilreaper.mycelium.bom"
-version = "1.1.1"
+version = "1.1.2"
 
 javaPlatform {
     allowDependencies()
@@ -43,6 +43,7 @@ publishing {
     }
     publications {
         create<MavenPublication>("maven") {
+            from(components["javaPlatform"])
             pom {
                 name.set("${project.name} ${project.version}")
                 description.set("Bill of materials for the Mycelium project")
