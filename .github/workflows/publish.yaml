@@ -5,9 +5,8 @@ on:
     branches:
       - main
       - master
-  create:
     tags:
-        - *
+      - *
 jobs:
   build:
     runs-on: ubuntu-latest
