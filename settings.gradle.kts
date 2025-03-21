@@ -24,5 +24,3 @@ dependencyResolutionManagement {
         }
     }
 }
-
-include("base")
