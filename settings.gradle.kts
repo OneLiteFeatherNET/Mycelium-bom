@@ -7,7 +7,7 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
             version("microtus", "1.5.1")
-            version("adventure", "4.19.0")
+            version("adventure", "4.20.0")
             version("junit", "5.12.1")
             version("mockito", "5.17.0")
             version("shadow", "8.3.6")
