@@ -3,22 +3,20 @@
   "extends": [
     "config:recommended"
   ],
+  "labels": [
+    "renovate"
+  ],
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "patch"
-      ],
+      "matchPackagePatterns": ["patch", "minor", "major"],
       "automerge": true,
-      "automergeType": "branch",
-      "groupName": "patch",
-      "commitMessage": "Update {{depName}} from {{currentVersion}} to {{newVersion}}"
-    },
-    {
-      "matchUpdateTypes": [
-        "minor"
-      ],
-      "automerge": false,
-      "commitMessage": "Update {{depName}} from {{currentVersion}} to {{newVersion}}"
+      "automergeType": "branch"
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security"
+    ],
+    "automerge": true
+  }
 }
