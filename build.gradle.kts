@@ -14,6 +14,7 @@ dependencies {
     constraints {
         api(libs.minestom)
         api(libs.adventure.text.minimessage)
+        api(libs.cyano)
         api(libs.junit.jupiter.api)
         api(libs.junit.jupiter.engine)
         api(libs.mockito.core)
