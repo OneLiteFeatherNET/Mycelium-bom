@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.theevilreaper.mycelium.bom"
-version = "1.1.2"
+version = "1.2.0"
 
 javaPlatform {
     allowDependencies()
@@ -12,8 +12,7 @@ javaPlatform {
 
 dependencies {
     constraints {
-        api(libs.microtus)
-        api(libs.microtus.testing)
+        api(libs.minestom)
         api(libs.adventure.text.minimessage)
         api(libs.junit.jupiter.api)
         api(libs.junit.jupiter.engine)
