@@ -10,7 +10,6 @@ dependencyResolutionManagement {
             version("adventure", "4.20.0")
             version("junit", "5.12.2")
             version("mockito", "5.17.0")
-            version("shadow", "8.3.6")
 
             library("microtus", "net.onelitefeather.microtus", "Microtus").versionRef("microtus")
             library("microtus-testing", "net.onelitefeather.microtus.testing", "testing").versionRef("microtus")
@@ -19,8 +18,6 @@ dependencyResolutionManagement {
             library("junit-jupiter-engine", "org.junit.jupiter", "junit-jupiter-engine").versionRef("junit")
             library("mockito-core", "org.mockito", "mockito-core").versionRef("mockito")
             library("mockito-junit-jupiter", "org.mockito", "mockito-junit-jupiter").versionRef("mockito")
-
-            plugin("shadow", "com.gradleup.shadow").versionRef("shadow")
         }
     }
 }
