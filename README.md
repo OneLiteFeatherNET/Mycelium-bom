@@ -21,10 +21,10 @@ Gradle (Kotlin DSL):
 
 ```kotlin
 dependencies {
-    implementation(platform("net.theevilreaper.mycelium.bom:mycelium-bom:<version>"))
+    implementation(platform("net.onelitefeather.mycelium.bom:mycelium-bom:<version>"))
 
     // Dependencies without version specification
-    implementation("net.onelitefeather.microtus:Microtus")
+    implementation("net.minestom:minestom-snapshots")
     implementation("net.kyori:adventure-text-minimessage")
     // ...
 }
@@ -35,10 +35,10 @@ Gradle (Groovy):
 ```groovy
 
 dependencies {
-    implementation platform('net.theevilreaper.mycelium.bom:mycelium-bom:<version>')
+    implementation platform('net.onelitefeather.mycelium.bom:mycelium-bom:<version>')
 
     // Dependencies without version specification
-    implementation 'net.onelitefeather.microtus:Microtus'
+    implementation 'net.minestom:minestom-snapshots'
     implementation 'net.kyori:adventure-text-minimessage'
     // ...
 }
