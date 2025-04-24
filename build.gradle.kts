@@ -3,7 +3,7 @@ plugins {
     `java-platform`
 }
 
-group = "net.theevilreaper.mycelium.bom"
+group = "net.onelitefeather.mycelium.bom"
 version = "1.2.0"
 
 javaPlatform {
