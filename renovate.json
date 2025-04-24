@@ -8,6 +8,10 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["net.minestom:minestom-snapshots"],
+      "enabled": false
+    },
+    {
       "matchUpdateTypes": ["patch", "minor", "major"],
       "automerge": true,
       "automergeType": "branch"
