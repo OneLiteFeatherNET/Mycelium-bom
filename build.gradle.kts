@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.onelitefeather.mycelium.bom"
-version = "1.2.0"
+version = "1.2.1"
 
 javaPlatform {
     allowDependencies()
@@ -13,15 +13,16 @@ javaPlatform {
 dependencies {
     constraints {
         api(libs.minestom)
-        api(libs.adventure.text.minimessage)
+        api(libs.adventure.minimessage)
         api(libs.cyano)
         api(libs.junit.jupiter.api)
         api(libs.junit.jupiter.engine)
+        api(libs.junit.jupiter.params)
+        api(libs.junit.platform.launcher)
         api(libs.mockito.core)
         api(libs.mockito.junit.jupiter)
     }
 }
-
 
 publishing {
     repositories {
