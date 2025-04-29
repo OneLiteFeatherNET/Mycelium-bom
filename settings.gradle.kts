@@ -26,10 +26,10 @@ dependencyResolutionManagement {
             version("junit", "5.12.2")
             version("junit.platform", "1.12.2")
             version("mockito", "5.17.0")
-            version("cyano", "0.1.0")
+            version("cyano", "0.1.1")
 
             library("minestom","net.minestom", "minestom-snapshots").versionRef("minestom")
-            library("cyano", "net.onelitefeather.cyano", "cyano").versionRef("cyano")
+            library("cyano", "net.onelitefeather", "cyano").versionRef("cyano")
             library("adventure.minimessage", "net.kyori", "adventure-text-minimessage").versionRef("adventure")
 
             // Junit libraries
