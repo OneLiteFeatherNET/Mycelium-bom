@@ -1,7 +1,7 @@
 ## Mycelium Bom
 
 The `Mycelium-Bom` is a project which defines a software bill of materials (SBOM) for the development of minecraft based
-server applications which relies on the Microtus project.
+server applications which relies on the Minestom project.
 
 > [!NOTE]
 > This BOM includes general dependencies that are commonly used across several projects within the OneLiteFeather
@@ -21,7 +21,7 @@ Gradle (Kotlin DSL):
 
 ```kotlin
 dependencies {
-    implementation(platform("net.onelitefeather.mycelium.bom:mycelium-bom:<version>"))
+    implementation(platform("net.onelitefeather.mycelium-bom:<version>"))
 
     // Dependencies without version specification
     implementation("net.minestom:minestom-snapshots")
@@ -35,7 +35,7 @@ Gradle (Groovy):
 ```groovy
 
 dependencies {
-    implementation platform('net.onelitefeather.mycelium.bom:mycelium-bom:<version>')
+    implementation platform('net.onelitefeather.mycelium-bom:<version>')
 
     // Dependencies without version specification
     implementation 'net.minestom:minestom-snapshots'
