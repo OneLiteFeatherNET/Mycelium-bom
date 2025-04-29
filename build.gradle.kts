@@ -3,8 +3,8 @@ plugins {
     `java-platform`
 }
 
-group = "net.onelitefeather.mycelium.bom"
-version = "1.2.1"
+group = "net.onelitefeather"
+version = "1.2.2"
 
 javaPlatform {
     allowDependencies()
