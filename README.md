@@ -43,3 +43,5 @@ dependencies {
     // ...
 }
 ```
+
+You can find the latest release [here](https://github.com/OneLiteFeatherNET/Mycelium-bom/releases)
