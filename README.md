@@ -21,7 +21,7 @@ Gradle (Kotlin DSL):
 
 ```kotlin
 dependencies {
-    implementation(platform("net.onelitefeather.mycelium-bom:<version>"))
+    implementation(platform("net.onelitefeather:mycelium-bom:<version>"))
 
     // Dependencies without version specification
     implementation("net.minestom:minestom-snapshots")
@@ -35,7 +35,7 @@ Gradle (Groovy):
 ```groovy
 
 dependencies {
-    implementation platform('net.onelitefeather.mycelium-bom:<version>')
+    implementation platform('net.onelitefeather:mycelium-bom:<version>')
 
     // Dependencies without version specification
     implementation 'net.minestom:minestom-snapshots'
