@@ -25,7 +25,7 @@ dependencyResolutionManagement {
             version("adventure", "4.21.0")
             version("junit", "5.12.2")
             version("junit.platform", "1.12.2")
-            version("mockito", "5.17.0")
+            version("mockito", "5.18.0")
             version("cyano", "0.1.1")
 
             library("minestom","net.minestom", "minestom-snapshots").versionRef("minestom")
