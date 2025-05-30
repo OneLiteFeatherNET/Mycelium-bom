@@ -23,8 +23,8 @@ dependencyResolutionManagement {
         create("libs") {
             version("minestom", "a1d1920a04")
             version("adventure", "4.21.0")
-            version("junit", "5.12.2")
-            version("junit.platform", "1.12.2")
+            version("junit", "5.13.0")
+            version("junit.platform", "1.13.0")
             version("mockito", "5.18.0")
             version("cyano", "0.1.1")
 
