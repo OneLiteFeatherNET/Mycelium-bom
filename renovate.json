@@ -12,9 +12,8 @@
       "enabled": false
     },
     {
-      "matchUpdateTypes": ["patch", "minor", "major"],
-      "automerge": true,
-      "automergeType": "branch"
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true
     }
   ],
   "vulnerabilityAlerts": {
