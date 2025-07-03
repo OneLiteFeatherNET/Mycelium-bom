@@ -8,8 +8,8 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["net.minestom:minestom-snapshots"],
-      "enabled": false
+      "matchPackageNames": ["net.minestom:minestom"],
+      "versioning": "regex:^(?<major>\\d{4})\\.(?<minor>\\d{2})\\.(?<patch>\\d{2})(?<prerelease>[a-z])?-(?<build>.+)$"
     },
     {
       "matchUpdateTypes": ["major", "minor", "patch"],
