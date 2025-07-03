@@ -21,14 +21,14 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("minestom", "4fe2993057")
+            version("minestom", "2025.07.03-1.21.5")
             version("adventure", "4.23.0")
             version("junit", "5.13.2")
             version("junit.platform", "1.13.2")
             version("mockito", "5.18.0")
             version("cyano", "0.1.1")
 
-            library("minestom","net.minestom", "minestom-snapshots").versionRef("minestom")
+            library("minestom","net.minestom", "minestom").versionRef("minestom")
             library("cyano", "net.onelitefeather", "cyano").versionRef("cyano")
             library("adventure.minimessage", "net.kyori", "adventure-text-minimessage").versionRef("adventure")
 
