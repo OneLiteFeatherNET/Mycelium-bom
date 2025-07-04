@@ -38,7 +38,7 @@ dependencies {
     implementation platform('net.onelitefeather:mycelium-bom:<version>')
 
     // Dependencies without version specification
-    implementation 'net.minestom:mminestom'
+    implementation 'net.minestom:minestom'
     implementation 'net.kyori:adventure-text-minimessage'
     // ...
 }
