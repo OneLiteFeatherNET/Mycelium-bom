@@ -21,7 +21,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("minestom", "2025.10.18-1.21.10")
+            version("minestom", "2025.10.31-1.21.10")
             version("adventure", "4.25.0")
             version("junit", "6.0.0")
             version("junit.platform", "6.0.0")
