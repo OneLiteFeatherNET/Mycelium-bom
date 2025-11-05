@@ -4,21 +4,18 @@ plugins {
 }
 
 group = "net.onelitefeather"
-version = "1.5.0"
+version = "1.5.1"
 
 javaPlatform {
     allowDependencies()
 }
 
 dependencies {
+    api(platform(libs.junit.bom))
     constraints {
         api(libs.minestom)
         api(libs.adventure.minimessage)
         api(libs.cyano)
-        api(libs.junit.jupiter.api)
-        api(libs.junit.jupiter.engine)
-        api(libs.junit.jupiter.params)
-        api(libs.junit.platform.launcher)
         api(libs.mockito.core)
         api(libs.mockito.junit.jupiter)
     }

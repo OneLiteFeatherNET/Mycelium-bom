@@ -23,8 +23,7 @@ dependencyResolutionManagement {
         create("libs") {
             version("minestom", "2025.10.31-1.21.10")
             version("adventure", "4.25.0")
-            version("junit", "6.0.1")
-            version("junit.platform", "6.0.1")
+            version("junit.bom", "6.0.1")
             version("mockito", "5.20.0")
             version("cyano", "0.4.1")
 
@@ -33,10 +32,7 @@ dependencyResolutionManagement {
             library("adventure.minimessage", "net.kyori", "adventure-text-minimessage").versionRef("adventure")
 
             // Junit libraries
-            library("junit.jupiter.api", "org.junit.jupiter", "junit-jupiter-api").versionRef("junit")
-            library("junit.jupiter.engine", "org.junit.jupiter", "junit-jupiter-engine").versionRef("junit")
-            library("junit.jupiter.params", "org.junit.jupiter", "junit-jupiter-params").versionRef("junit")
-            library("junit.platform.launcher", "org.junit.platform", "junit-platform-launcher").versionRef("junit.platform")
+            library("junit.bom", "org.junit", "junit-bom").versionRef("junit.bom")
 
             // Mock libraries
             library("mockito-core", "org.mockito", "mockito-core").versionRef("mockito")
