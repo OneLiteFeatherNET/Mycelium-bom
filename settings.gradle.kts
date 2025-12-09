@@ -24,7 +24,7 @@ dependencyResolutionManagement {
             version("minestom", "2025.10.31-1.21.10")
             version("adventure", "4.25.0")
             version("junit.bom", "6.0.1")
-            version("mockito", "5.20.0")
+            version("mockito", "5.21.0")
             version("cyano", "0.4.1")
             version("cyclonedx", "3.1.0")
 
