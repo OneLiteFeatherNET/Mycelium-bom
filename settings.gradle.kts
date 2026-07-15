@@ -26,7 +26,7 @@ dependencyResolutionManagement {
             version("junit.bom", "6.1.2")
             version("mockito", "5.23.0")
             version("cyano", "0.6.3")
-            version("cyclonedx", "3.2.4")
+            version("cyclonedx", "3.3.0")
 
             library("minestom","net.minestom", "minestom").versionRef("minestom")
             library("cyano", "net.onelitefeather", "cyano").versionRef("cyano")
