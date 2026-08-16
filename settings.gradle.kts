@@ -21,7 +21,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("minestom", "2026.08.07-26.2")
+            version("minestom", "2026.08.16-26.2")
             version("adventure", "5.2.0")
             version("junit.bom", "6.1.3")
             version("mockito", "5.23.0")
