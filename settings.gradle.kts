@@ -11,7 +11,7 @@ dependencyResolutionManagement {
             version("adventure", "5.2.0")
             version("junit.bom", "6.1.3")
             version("mockito", "5.23.0")
-            version("cyano", "0.7.3")
+            version("cyano", "0.7.4")
             version("cyclonedx", "3.4.1")
 
             library("minestom","net.minestom", "minestom").versionRef("minestom")
