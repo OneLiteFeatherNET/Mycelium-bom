@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.5](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.4...1.8.5) (2026-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency net.onelitefeather:cyano to v0.7.5 ([#151](https://github.com/OneLiteFeatherNET/Mycelium-bom/issues/151)) ([b81bf44](https://github.com/OneLiteFeatherNET/Mycelium-bom/commit/b81bf44034ea5c744f2ec2234b6ce5443f043d8c))
+
 ## [1.8.4](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.3...1.8.4) (2026-08-28)
 
 
