@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "net.onelitefeather"
-version = "1.8.3" // x-release-please-version
+version = "1.8.4" // x-release-please-version
 
 javaPlatform {
     allowDependencies()

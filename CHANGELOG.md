@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.4](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.3...1.8.4) (2026-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency net.minestom:minestom to v2026.08.28-26.2 ([#149](https://github.com/OneLiteFeatherNET/Mycelium-bom/issues/149)) ([53ce8af](https://github.com/OneLiteFeatherNET/Mycelium-bom/commit/53ce8af913c5a0bbe7b5d32e6db8a51a46b1287b))
+
 ## [1.8.3](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/v1.8.2...1.8.3) (2026-08-18)
 
 
