@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.6](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.5...1.8.6) (2026-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency net.minestom:minestom to v2026.09.12-26.2 ([#155](https://github.com/OneLiteFeatherNET/Mycelium-bom/issues/155)) ([ebe00c9](https://github.com/OneLiteFeatherNET/Mycelium-bom/commit/ebe00c9ed0bc5a45ad616d757fc5bfd560a8bb77))
+* **deps:** update dependency net.onelitefeather:cyano to v0.7.6 ([#157](https://github.com/OneLiteFeatherNET/Mycelium-bom/issues/157)) ([ee2e25a](https://github.com/OneLiteFeatherNET/Mycelium-bom/commit/ee2e25a8057cce16b5d597cfbb76f4661ec2b954))
+
 ## [1.8.5](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.4...1.8.5) (2026-08-28)
 
 
