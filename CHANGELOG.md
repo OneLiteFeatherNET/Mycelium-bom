@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.7](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.6...1.8.7) (2026-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update mockito to v5.24.0 ([#158](https://github.com/OneLiteFeatherNET/Mycelium-bom/issues/158)) ([8dbe274](https://github.com/OneLiteFeatherNET/Mycelium-bom/commit/8dbe274c62fc2293f568eda111a238e2eda2db89))
+
 ## [1.8.6](https://github.com/OneLiteFeatherNET/Mycelium-bom/compare/1.8.5...1.8.6) (2026-09-22)
 
 
